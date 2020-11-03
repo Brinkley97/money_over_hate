@@ -1,166 +1,51 @@
-.navbar{
-  background-color: black;
+/*
+yellow: #ffff00;
+dark green: #013220;
+grey: #ededed;
+ */
+
+body {
+  padding-top: 56px;
+  background-color: #ededed;
 }
-.containerGo{
-  text-align: center;
-  padding-top: 5px;
+#navBar, footer{
+  /* background-color: #ffff00; */
+  background-color: #013220;
 }
-.container-fluid{
-  position: absolute;
-  top: 30%;
+.navWords{
   color: white;
 }
-.fontMe{
-  font-family: 'Amatic SC', cursive;
-  font-weight: 700;
-  font-size: 70px;
-  letter-spacing: 7px;
-  color: #343a40;
-
+header{
+  /* background-color: #013220; */
+  background-color: #ffff00;
 }
-.boldFont{
-  font-family: 'IBM Plex Serif', serif;
-  /* font-weight: 900; */
-  font-size: 55px;
-  letter-spacing: 10px !important;
-  text-transform: uppercase;
-  color: black;
-  /* font-stretch: 1% 500%; */
-
+#title{
+  color: #013220;
+  /* color: white; */
 }
-.expanded{
-  font-stretch: 200%;
+#slogan{
+  color: #013220;
+}
+.space{
+  padding-bottom: 55px;
 }
 
-.italicFont{
-  font-family: 'Raleway', sans-serif;
-  font-size: 30px;
-  font-weight: 800;
-  color: #343a40;
-}
-.backgroundImg{
-  height: 93vh;
-  width: 100%;
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("img/money.jpg");
-}
-
-/* ABOUT SECTION */
-.aboutSection{
-  height: 615px;
-  background: white;
-}
-@media (min-width: 992px){
-  /* .about{
-    padding-top: 150px;
-  } */
-  /* .me{
-    padding-top: 30px;
-  } */
-  /* .imgDown{
-    padding-bottom: 600px;
-  } */
-}
-@media (min-width: 768px){
-  /* .about{
-    padding-top: 100px;
-  } */
-  .imgDown{
-    padding-top: 170px;
-  }
-  .me{
-    padding-top: 200px;
-  }
-}
-
-
-.me{
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 900;
-  font-size: 55px;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  color: #8de34f;
-}
-.aboutMe{
-  font-family: 'Montserrat', sans-serif;
-  letter-spacing: 2px !important;
-  font-weight: 800;
-  color: #343a40;
-
-}
-/* WHAT I DO */
-.iDo{
-  padding-top: 450px;
-
-}
-div.usmc, div.college, div.vlogger, div.developer{
-  box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-.doSection{
-  background: #F2F3F2;
-  padding-top: 30px;
-}
-
-.usmc, .college, .vlogger, .developer{
-  width: 20em;
-  height: 20em;
-}
-
-.usmc:hover, .college:hover, .vlogger:hover, .developer:hover{
-  -webkit-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  transform: scale(1.2);
-}
-/* when on phone screen, it will center cards */
-/* when on phone screen, it will add bottom border */
-.card{
-/* top, right, bottom, left */
-/* this case, the top and bottom 0 */
-/* this case, the left and right auto */
-  margin: 0 auto;
-  /* float: none; */
-  margin-bottom: 40px;
-}
-.card-img-top{
-  height: 13em;
-}
-.myCards{
-  margin-top: 30px;
-}
-
-.yut{
-  font-family: 'Source Sans Pro', sans-serif;
-  /* font-weight: 900; */
-  /* font-size: 55px; */
-  /* letter-spacing: 5px !important; */
-  text-transform: uppercase;
-  color: #8de34f;
-}
-/* EXPLANATION SECTION */
-.changeColor{
-  font-color: #343a40;
-}
-
-.fontExperience{
-  font-family: 'Amatic SC', cursive;
-  font-weight: 400;
-  font-size: 50px;
-  letter-spacing: 7px;
-  color: #8de34f;
-
-}
-
-.colorExperience{
-  font-family: 'Source Sans Pro', sans-serif;
-  /* font-weight: 900; */
-  /* font-size: 55px; */
-  letter-spacing: 3px !important;
-  /* text-transform: uppercase; */
-  color: #8de34f;
-}
-
-/* .lineTimeLine{
-  border-left: 5px solid #8de34f;
-  height: 800px;
-  left: 10%;
+#jd{
+  height: 50%;
+  width: 70%;
+  border-radius: 30%;
+  margin-top: 70px;
+/* }
+.clothes{
+  max-height: 50px;
+  width: 90%;
 } */
+
+@media (max-width: 414px) {
+  html, body{
+    padding-bottom: 5%;
+  }
+  .nameNumEmail{
+    text-align: center;
+  }
+}

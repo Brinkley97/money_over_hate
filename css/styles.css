@@ -58,9 +58,9 @@ header{
   margin-top: 10px;
 }
 @media (max-width: 414px) {
-  html, body{
+  /* html, body{
     padding-bottom: 5%;
-  }
+  } */
   .nameNumEmail{
     text-align: center;
   }

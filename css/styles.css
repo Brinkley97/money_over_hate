@@ -6,46 +6,71 @@ grey: #ededed;
 
 body {
   padding-top: 56px;
-  background-color: #ededed;
+  background-color: white;
+  /* background-color: #ededed; */
 }
 #navBar, footer{
   /* background-color: #ffff00; */
-  background-color: #013220;
+  background-color: black;
 }
 .navWords{
   color: white;
 }
 header{
-  /* background-color: #013220; */
-  background-color: #ffff00;
+  /* background-color: #ededed; */
+  /* background-color: white; */
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(237,237,237,1) 0%, rgba(0,0,0,1) 78%, rgba(0,0,0,1) 100%);
 }
 #title{
-  color: #013220;
-  /* color: white; */
+  /* color: #013220; */
+  color: white;
 }
 #slogan{
-  color: #013220;
+  /* color: #013220; */
+  color: black;
+  margin: 45px 0px 30px 0px;
+}
+.whyShopBody{
+  padding: 20px 30px 0px 30px;
+}
+#moneyBag{
+  height: 40px;
+  width: 40px;
 }
 .space{
   padding-bottom: 55px;
 }
-
+#email{
+  color: black;
+}
 #jd{
   height: 50%;
   width: 70%;
   border-radius: 30%;
   margin-top: 70px;
-/* }
+}
 .clothes{
-  max-height: 50px;
-  width: 90%;
-} */
-
+  /* max-height: 50px; */
+  width: 70%;
+}
+.cost{
+  margin-top: 10px;
+}
 @media (max-width: 414px) {
   html, body{
     padding-bottom: 5%;
   }
   .nameNumEmail{
     text-align: center;
+  }
+  #slogan{
+    /* color: #013220; */
+    color: black;
+    margin: 100px 0px 30px 0px;
+  }
+  .clothes{
+    /* max-height: 50px; */
+    width: 100%;
   }
 }
